@@ -98,7 +98,7 @@ if __name__ == '__main__':
                                        day,hour,minute,second)
 
 
-        completeName = os.path.join(save_path, stri)
+        completeName = os.path.join(save_path+"daily", stri)
         result = open(completeName, "w", encoding='utf8')
         #date_format = '%Y-%m-%d %H:%M:%S'
         date_format = '%Y-%m-%d'
@@ -232,7 +232,7 @@ if __name__ == '__main__':
         stri = "{}-{}-{}-{}-{}-{}-weekly.csv".format(datetime.datetime.now().year, month,
                                               day, hour, minute, second)
 
-        completeName = os.path.join(save_path, stri)
+        completeName = os.path.join(save_path+"weekly", stri)
         result = open(completeName, "w", encoding='utf8')
         # date_format = '%Y-%m-%d %H:%M:%S'
         date_format = '%Y-%m-%d'
@@ -378,7 +378,7 @@ if __name__ == '__main__':
         stri = "{}-{}-{}-{}-{}-{}-monthly.csv".format(datetime.datetime.now().year, month,
                                               day, hour, minute, second)
 
-        completeName = os.path.join(save_path, stri)
+        completeName = os.path.join(save_path+"monthly", stri)
         result = open(completeName, "w", encoding='utf8')
         # date_format = '%Y-%m-%d %H:%M:%S'
         date_format = '%Y-%m-%d'
