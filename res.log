@@ -1,0 +1,5 @@
+ip	status_code_deviceInfo	deviceName	deviceID	model	serialNumber	firmwareVersion	firmwareReleasedDate	deviceType	status_code_time	activateDST	DSTsetting	localTime	diff_in_time	timeZone	NTP	status_code_video	videoCodecType	Resolution	constantBitRate	maxFrameRate
+192.12.12.1280	-1	Error while connection
+192.12.12.13	-1	Error while connection
+192.168.30.50	1	People Counting	48981290-b1b9-11b3-8202-94e1ac9a474f	iDS-2XM6810F-I/C	iDS-2XM6810F-I/C20180514AAWR214127248	V5.4.7	build 171115	IPCamera	1	1	1	2019-03-22T09:46:05+02:00	-1	CST-2:00:00DST01:00:00,M3.5.0/03:00:00,M10.5.0/04:00:00	1	1	H.264	640*480	2048	2500
+192.168.30.41	1	IP CAMERA	7e05c000-f579-11b4-839e-4447cc436272	DS-2CD5126G0-IZS	DS-2CD5126G0-IZS20180926AAWRC54227090	V5.5.61	build 180814	IPCamera	1	0	0	2019-03-22T09:46:04+02:00	0	CST-2:00:00	0	1	H.264	1920*1080	4096	2500
