@@ -38,10 +38,10 @@ arr[0].text = config_ini['DEFAULT']['path_to_save_file']
 
 tree.write('new_daily.xml')
 '''
-os.system("mkdir {}\daily".format(config_ini['DEFAULT']['path_to_save_file']))
-os.system("mkdir {}\weekly".format(config_ini['DEFAULT']['path_to_save_file']))
-os.system("mkdir {}\monthly".format(config_ini['DEFAULT']['path_to_save_file']))
-os.system("mkdir {}\\today".format(config_ini['DEFAULT']['path_to_save_file']))
+os.system('mkdir "{}\daily" '.format(config_ini['DEFAULT']['path_to_save_file']))
+os.system('mkdir "{}\weekly" '.format(config_ini['DEFAULT']['path_to_save_file']))
+os.system('mkdir "{}\monthly" '.format(config_ini['DEFAULT']['path_to_save_file']))
+os.system('mkdir "{}\\today" '.format(config_ini['DEFAULT']['path_to_save_file']))
 
 
 def changeParametersXML(xml,arg):
@@ -100,7 +100,7 @@ os.system("del n_new_monthly.xml")
 
 
 
-os.system("mkdir {}\\today".format(config_ini['DEFAULT']['path_to_save_file']))
+#os.system("mkdir {}\\today".format(config_ini['DEFAULT']['path_to_save_file']))
 time_periods = config_ini['DEFAULT']['time'].split(',')
 
 
